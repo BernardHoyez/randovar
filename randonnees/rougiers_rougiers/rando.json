@@ -1,9 +1,9 @@
 {
   "titre": "Rougiers",
   "vignette": "vignette.jpg",
-  "visite": "rougiers-rougiers.html",
-  "kml": "rougiers-rougiers.kml",
-  "gpx": "rougiers-rougiers.gpx",
+  "visite": "rougiers_rougiers.html",
+  "kml": "rougiers_rougiers.kml",
+  "gpx": "rougiers_rougiers.gpx",
   "distance": "13 km",
   "duree": "4 h"
 }
