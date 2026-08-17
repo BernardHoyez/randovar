@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Randonner VAR — randonnées en pays varois</title>
+<meta name="description" content="Randonner VAR : les randonnées de notre club dans les collines calcaires et la garrigue du Var.">
+<meta name="theme-color" content="#47563A">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700;800&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero">
+  <img class="hero__img" src="images/hero.jpg" alt="Randonneurs progressant sur un sentier rocailleux entre les crêtes calcaires et la garrigue varoise">
+  <div class="hero__scrim"></div>
+  <div class="hero__content">
+    <p class="hero__eyebrow">Club de randonnée &middot; Var, Provence</p>
+    <h1 class="hero__title">Randonner VAR</h1>
+    <p class="hero__tagline">Crêtes calcaires, garrigue et lumière du Sud : nos sentiers à travers le département.</p>
+  </div>
+  <svg class="hero__ridge" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,90 L0,46 L60,64 L130,28 L200,54 L260,18 L330,50 L400,10 L470,42 L540,22 L610,58 L680,30 L750,52 L820,16 L890,46 L960,26 L1030,56 L1100,34 L1160,50 L1200,40 L1200,90 Z"></path>
+  </svg>
+</header>
+
+<main>
+  <section class="intro">
+    <p>Été comme hiver, le club explore les collines du Var : calanques et crêtes littorales, garrigue odorante, gorges et villages perchés. Chaque randonnée ci-dessous propose une visite guidée en ligne et les traces à télécharger.</p>
+  </section>
+
+  <section class="liste" id="liste-randonnees" aria-label="Liste des randonnées">
+    <p class="liste__chargement" id="etat-chargement">Chargement des randonnées&hellip;</p>
+  </section>
+</main>
+
+<footer class="pied">
+  <p>Randonner VAR — site du club, généré à partir des visites <a href="https://bernardhoyez.github.io/geotour" target="_blank" rel="noopener">geotour</a>.</p>
+</footer>
+
+<template id="tpl-carte">
+  <article class="carte">
+    <a class="carte__vignette-lien" data-role="visite-lien">
+      <img class="carte__vignette" data-role="vignette" alt="">
+    </a>
+    <div class="carte__corps">
+      <h2 class="carte__titre" data-role="titre"></h2>
+      <p class="carte__meta" data-role="meta"></p>
+      <div class="carte__liens">
+        <a class="bouton bouton--visite" data-role="visite-lien-2">Visite</a>
+        <a class="bouton bouton--fichier" data-role="kml-lien" download>KML</a>
+        <a class="bouton bouton--fichier" data-role="gpx-lien" download>GPX</a>
+      </div>
+    </div>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

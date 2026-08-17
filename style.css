@@ -1,0 +1,250 @@
+:root {
+  --stone: #EAE4D6;
+  --stone-dim: #DCD4C2;
+  --pine: #47563A;
+  --pine-deep: #333F29;
+  --ochre: #C17A3D;
+  --ochre-deep: #A6602A;
+  --sky: #5B85A6;
+  --sun: #D9A441;
+  --ink: #2E2B22;
+  --ink-soft: #55503F;
+  --paper: #F5F1E7;
+
+  --font-display: 'Bitter', Georgia, serif;
+  --font-body: 'Work Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --rayon: 10px;
+  --ombre: 0 10px 26px rgba(46, 43, 34, 0.16);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--stone);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.55;
+}
+
+a { color: var(--ochre-deep); }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+
+/* ---------- Hero ---------- */
+
+.hero {
+  position: relative;
+  min-height: min(78vh, 620px);
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: var(--pine-deep);
+}
+
+.hero__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 60%;
+}
+
+.hero__scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(30, 33, 20, 0.55) 0%, rgba(30, 33, 20, 0.18) 38%, rgba(30, 33, 20, 0.72) 100%);
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4.5rem;
+  color: var(--paper);
+}
+
+.hero__eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--sun);
+  margin: 0 0 0.9rem;
+}
+
+.hero__title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2.6rem, 7vw, 5rem);
+  line-height: 0.98;
+  margin: 0 0 0.7rem;
+  letter-spacing: -0.01em;
+  text-shadow: 0 4px 18px rgba(0,0,0,0.35);
+}
+
+.hero__tagline {
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  max-width: 40ch;
+  margin: 0;
+  color: #EFE9DA;
+}
+
+.hero__ridge {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 60px;
+  z-index: 2;
+  fill: var(--stone);
+}
+
+/* ---------- Intro ---------- */
+
+.intro {
+  max-width: 720px;
+  margin: 3.2rem auto 1rem;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.intro p {
+  color: var(--ink-soft);
+  font-size: 1.08rem;
+}
+
+/* ---------- Liste des randonnées ---------- */
+
+.liste {
+  max-width: 1080px;
+  margin: 2rem auto 5rem;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.8rem;
+}
+
+.liste__chargement,
+.liste__vide,
+.liste__erreur {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  padding: 2rem 0;
+}
+
+.carte {
+  background: var(--paper);
+  border-radius: var(--rayon);
+  overflow: hidden;
+  box-shadow: var(--ombre);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(46,43,34,0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.carte:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 34px rgba(46, 43, 34, 0.22);
+}
+
+.carte__vignette-lien { display: block; line-height: 0; }
+
+.carte__vignette {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+  border-bottom: 3px solid var(--ochre);
+}
+
+.carte__corps {
+  padding: 1.1rem 1.2rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.carte__titre {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.28rem;
+  margin: 0;
+  color: var(--pine-deep);
+  line-height: 1.2;
+}
+
+.carte__meta {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin: 0 0 0.4rem;
+  letter-spacing: 0.01em;
+}
+
+.carte__liens {
+  margin-top: auto;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.bouton {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.bouton--visite {
+  background: var(--pine);
+  color: var(--paper);
+}
+.bouton--visite:hover { background: var(--pine-deep); }
+
+.bouton--fichier {
+  background: transparent;
+  color: var(--ochre-deep);
+  border: 1.5px solid var(--ochre);
+}
+.bouton--fichier:hover { background: var(--ochre); color: var(--paper); }
+
+/* ---------- Pied de page ---------- */
+
+.pied {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  padding: 2rem 1.5rem 3rem;
+}
+
+.pied a { color: var(--ink-soft); }
+
+/* ---------- Accessibilité / mobile ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .carte { transition: none; }
+}
+
+@media (max-width: 560px) {
+  .hero { min-height: 60vh; }
+  .hero__content { padding-bottom: 3.2rem; }
+  .liste { grid-template-columns: 1fr; }
+}

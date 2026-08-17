@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sentier des crêtes (exemple)</name>
+    <description>Fichier KML d'exemple — remplacez par la vraie trace exportée depuis geotour.</description>
+    <Placemark>
+      <name>Départ (exemple)</name>
+      <Point><coordinates>6.1286,43.4642,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>

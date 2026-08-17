@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7FA6C4"/>
+      <stop offset="100%" stop-color="#5B85A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#sky)"/>
+  <circle cx="368" cy="140" r="54" fill="#EFC26B"/>
+  <!-- crete calcaire arriere-plan -->
+  <path d="M0 320 L60 260 L130 300 L200 210 L260 280 L330 180 L400 260 L460 220 L512 300 L512 512 L0 512 Z" fill="#B7ADA0" opacity="0.85"/>
+  <!-- crete calcaire premier plan -->
+  <path d="M0 400 L70 330 L150 380 L230 300 L300 370 L380 290 L460 360 L512 330 L512 512 L0 512 Z" fill="#47563A"/>
+  <!-- sentier ocre -->
+  <path d="M256 512 C246 440 300 410 288 350 C280 310 250 300 256 250" stroke="#C17A3D" stroke-width="14" fill="none" stroke-linecap="round"/>
+</svg>
