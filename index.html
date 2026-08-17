@@ -62,5 +62,14 @@
 </template>
 
 <script src="app.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').catch((err) => {
+        console.warn('Échec de l\'enregistrement du service worker :', err);
+      });
+    });
+  }
+</script>
 </body>
 </html>
