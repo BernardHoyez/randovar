@@ -1,0 +1,3901 @@
+{
+  "name": "gigaro_lardier_taillat_la_croix-valmer",
+  "generatedAt": "2026-09-07T20:15:08.218Z",
+  "waypointCount": 46,
+  "thumbnail": null,
+  "waypoints": [
+    {
+      "name": "Arrivée",
+      "lat": 43.185752,
+      "lon": 6.599085,
+      "alt": 0,
+      "comment": "Nom: Segment: 1Heure de départ: 09:20 13 juin 2021Heure d'arrivée: 16:34 13 juin 2021Distance: 13,9km (07:14)Temps déplacement: 04:41Vitesse moyenne: 1,92 km/hVitesse moyenne mouv.: 2,96 km/hVitesse Max.: 5,95 km/hAltitude minimale: -4 mAltitude maximale: 164 mVitesse de montée: 196,4 m/hVitesse de descente: 196 m/hGain d'altitude: 503 mPerte d'altitude: 496 mTemps de montée: 02:33Temps de descente: 02:32",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Au loin Taillat 1",
+      "lat": 43.163302,
+      "lon": 6.61894,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245018448_c0c0cf4143_b.jpg}} [[https://live.staticflickr.com/65535/51245018448_c0c0cf4143_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Au loin Taillat 2",
+      "lat": 43.162344,
+      "lon": 6.619446,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244819031_d7ab259bc6_b.jpg}} [[https://live.staticflickr.com/65535/51244819031_d7ab259bc6_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Baie de Briande",
+      "lat": 43.169335,
+      "lon": 6.62803,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244091762_42bf734017_b.jpg}} [[https://live.staticflickr.com/65535/51244091762_42bf734017_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Baie de Cavalaire",
+      "lat": 43.161531,
+      "lon": 6.619345,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244815971_1a92484cd6_b.jpg}} [[https://live.staticflickr.com/65535/51244815971_1a92484cd6_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Baie de Cavalaire",
+      "lat": 43.18264,
+      "lon": 6.612849,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245835850_c59803d9fe_b.jpg}} [[https://live.staticflickr.com/65535/51245835850_c59803d9fe_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Barbe Jupiter 1",
+      "lat": 43.173826,
+      "lon": 6.606097,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245590134_e6c52f45b2_b.jpg}} [[https://live.staticflickr.com/65535/51245590134_e6c52f45b2_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Barbe Jupiter 2",
+      "lat": 43.160098,
+      "lon": 6.620078,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245010653_0f03a8252c_b.jpg}} [[https://live.staticflickr.com/65535/51245010653_0f03a8252c_b.jpg|Agrandir]] Anthyllis barba-jovis, la barbe de Jupiter, est une espèce de plantes dicotylédones de la famille des Fabaceae, sous-famille des Faboideae, originaire du bassin méditerranéen. Ce sont des plantes ligneuses vivaces, semi-halophiles.",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Cap Camarat",
+      "lat": 43.176227,
+      "lon": 6.640137,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245554704_129f8ca419_b.jpg}} [[https://live.staticflickr.com/65535/51245554704_129f8ca419_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Cap Lardier 1",
+      "lat": 43.160076,
+      "lon": 6.619916,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245012783_51ea549619_b.jpg}} [[https://live.staticflickr.com/65535/51245012783_51ea549619_b.jpg|Agrandir]] Le cap Lardier est le premier des trois caps de la presqu’île de Saint-Tropez visible depuis la baie de Cavalaire, et le plus boisé. Situé sur la commune de La Croix Valmer, dans le Var, c’est l’un des derniers poumons verts encore non urbanisés compris entre les villes balnéaires très touristiques de Cavalaire et de Saint-Tropez.",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Cap Lardier Est",
+      "lat": 43.160618,
+      "lon": 6.620949,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245008778_60988d6379_b.jpg}} [[https://live.staticflickr.com/65535/51245008778_60988d6379_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Cap Taillat Est",
+      "lat": 43.176224,
+      "lon": 6.640122,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245848355_aec9d949b1_b.jpg}} [[https://live.staticflickr.com/65535/51245848355_aec9d949b1_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Cavalaire",
+      "lat": 43.179126,
+      "lon": 6.60294,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245896890_25f3e755db_b.jpg}} [[https://live.staticflickr.com/65535/51245896890_25f3e755db_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Chenille Cucullie Scrof.",
+      "lat": 43.165104,
+      "lon": 6.618056,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244845091_0833860bbf_b.jpg}} [[https://live.staticflickr.com/65535/51244845091_0833860bbf_b.jpg|Agrandir]] La Cucullie de la scrofulaire ou Cucullie des scrofulaires (Shargacucullia scrophulariae ou Cucullia scrophulariae) est une espèce de lépidoptères (papillons) de la famille des Noctuidae et de la sous-famille des Cuculliinae. Comme me l'a fait remarquer Vincent Blondel, cette cucullie pourrait aussi bien être la cucullie du Bouillon-Blanc.",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Citerne des Gaches",
+      "lat": 43.188668,
+      "lon": 6.614888,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244781421_d74d7605cc_b.jpg}} [[https://live.staticflickr.com/65535/51244781421_d74d7605cc_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Départ",
+      "lat": 43.185682,
+      "lon": 6.599128,
+      "alt": 0,
+      "comment": "",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Dolmen de la Briande",
+      "lat": 43.177974,
+      "lon": 6.634818,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245846865_283162c208_b.jpg}} [[https://live.staticflickr.com/65535/51245846865_283162c208_b.jpg|Agrandir]] Le dolmen a été édifié à flanc de coteau, à 300 m de la mer, c'est d'ailleurs le dolmen le plus méridional de tout le département. Bien que très endommagée, l'architecture générale de l'édifice est reconnaissable. La chambre sépulcrale est de forme rectangulaire. Elle est délimitée par une dalle de chevet et un orthostate côté est, tous deux en granite d'origine locale. Les autres dalles sont en gneiss, dressées sur chant et jointes par des murettes en pierres sèches.",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Forêt de La Tourraque",
+      "lat": 43.185922,
+      "lon": 6.629141,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245842990_a795827b1a_b.jpg}} [[https://live.staticflickr.com/65535/51245842990_a795827b1a_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Gigaro 2",
+      "lat": 43.18163,
+      "lon": 6.602381,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245604259_d62124d689_b.jpg}} [[https://live.staticflickr.com/65535/51245604259_d62124d689_b.jpg|agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Gigaro 3",
+      "lat": 43.17856,
+      "lon": 6.603428,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245600339_b2cf3344a7_b.jpg}} [[https://live.staticflickr.com/65535/51245600339_b2cf3344a7_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Gigaro 4",
+      "lat": 43.176985,
+      "lon": 6.603626,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245893360_5d1b2c52b9_b.jpg}} [[https://live.staticflickr.com/65535/51245893360_5d1b2c52b9_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Giroflée des dunes",
+      "lat": 43.172747,
+      "lon": 6.639172,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244996508_38d165d2d6_b.jpg}} [[https://live.staticflickr.com/65535/51244996508_38d165d2d6_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Jeune palmier (Phoenix probable)",
+      "lat": 43.187526,
+      "lon": 6.628518,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244073557_883b0d598e_b.jpg}} [[https://live.staticflickr.com/65535/51244073557_883b0d598e_b.jpg|Agrandir]] Ce jeune palmier poussant dans une dépression humide n'est pas le palmier nain (Chamaerops) comme je l'avais rapidement décrit, mais comme me l'a fait remarquer Marjorie Ughetto plutôt un Phoenix, avec la palme en forme de plume.",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Jonc",
+      "lat": 43.165957,
+      "lon": 6.623889,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244803661_14e28d18a8_b.jpg}} [[https://live.staticflickr.com/65535/51244803661_14e28d18a8_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Jovat 1",
+      "lat": 43.176507,
+      "lon": 6.604506,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244831566_bff9b17084_b.jpg}} [[https://live.staticflickr.com/65535/51244831566_bff9b17084_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Joyat 2",
+      "lat": 43.174811,
+      "lon": 6.603267,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245888275_35e9703d24_b.jpg}} [[https://live.staticflickr.com/65535/51245888275_35e9703d24_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Lardier 1",
+      "lat": 43.173882,
+      "lon": 6.604491,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244118777_99a2e98fac_b.jpg}} [[https://live.staticflickr.com/65535/51244118777_99a2e98fac_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Lardier Est 2",
+      "lat": 43.165904,
+      "lon": 6.623887,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245864155_c2af406fd0_b.jpg}} [[https://live.staticflickr.com/65535/51245864155_c2af406fd0_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Lardier Plage",
+      "lat": 43.162994,
+      "lon": 6.621331,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245572309_ce4fa56cae_b.jpg}} [[https://live.staticflickr.com/65535/51245572309_ce4fa56cae_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Lavatère",
+      "lat": 43.162192,
+      "lon": 6.619469,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244107822_f7e0fd863d_b.jpg}} [[https://live.staticflickr.com/65535/51244107822_f7e0fd863d_b.jpg|Agrandir]] La Mauve ou lavatère royale (Malva arborea ou Malva dendromorpha) est un arbrisseau poussant sur le littoral méditerranéen et sur les côtes atlantiques, dont les grandes fleurs pourpres ou violacées sont assez semblables à celles des mauves véritables, même si leur coloris est souvent plus vif.",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Lepture porte-coeur sur figuier Barbarie",
+      "lat": 43.176735,
+      "lon": 6.636482,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245902005_2134cdd5d0_b.jpg}} [[https://live.staticflickr.com/65535/51245902005_2134cdd5d0_b.jpg|Agrandir]] {{https://live.staticflickr.com/65535/51245901860_657a09478b_b.jpg}} [[https://live.staticflickr.com/65535/51245901860_657a09478b_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Myrte commun",
+      "lat": 43.160768,
+      "lon": 6.621546,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244135667_18db9ca847_b.jpg}} [[https://live.staticflickr.com/65535/51244135667_18db9ca847_b.jpg|Agrandir]] Le Myrte commun, parfois appelé Myrte juif ou Herbe du lagui (Myrtus communis), est une espèce d'arbuste buissonnant au port dressé. Les feuilles de 2 à 5 cm de long, opposées, ovales, vernissées, de couleur vert foncé, aromatiques quand on les froisse. Les fleurs solitaires à long pédicelle et à cinq pétales, avec une touffe centrale d'étamines blanches, dégagent un parfum capiteux. Les fleurs ont un diamètre de 1 à 2 cm. La floraison a lieu de juin à octobre.",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Oeillet des Rochers",
+      "lat": 43.180467,
+      "lon": 6.603157,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245904855_43634de9b0_b.jpg}} [[https://live.staticflickr.com/65535/51245904855_43634de9b0_b.jpg|agrandir]] {{https://live.staticflickr.com/65535/51245904700_bc4894dac6_b.jpg}} [[https://live.staticflickr.com/65535/51245904700_bc4894dac6_b.jpg|agrandir]] {{https://live.staticflickr.com/65535/51245904425_fbfe7f7ce2_b.jpg}} [[https://live.staticflickr.com/65535/51245904425_fbfe7f7ce2_b.jpg|agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Pancarte 1",
+      "lat": 43.183688,
+      "lon": 6.600632,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245606869_536389c4e7_b.jpg}} [[https://live.staticflickr.com/65535/51245606869_536389c4e7_b.jpg|agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Pancarte 2",
+      "lat": 43.176643,
+      "lon": 6.604329,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245596649_ebeb7b6f96_b.jpg}} [[https://live.staticflickr.com/65535/51245596649_ebeb7b6f96_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Pancarte Maison Douaniers",
+      "lat": 43.174976,
+      "lon": 6.639787,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245558519_4664069415_b.jpg}} [[https://live.staticflickr.com/65535/51245558519_4664069415_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Parasols de La Bergerie",
+      "lat": 43.18072,
+      "lon": 6.631919,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244076522_50aeaab7d1_b.jpg}} [[https://live.staticflickr.com/65535/51244076522_50aeaab7d1_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Plage de Gigaro",
+      "lat": 43.182127,
+      "lon": 6.60209,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244841476_2d2243865b_b.jpg}} [[https://live.staticflickr.com/65535/51244841476_2d2243865b_b.jpg|agrandir]] Cette plage familiale est la dernière avant l’accès au sentier des douaniers et est considérée comme la porte d’entrée du Conservatoire du Littoral.",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Poteau Brouis",
+      "lat": 43.172986,
+      "lon": 6.60842,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245588844_1966f3b471_b.jpg}} [[https://live.staticflickr.com/65535/51245588844_1966f3b471_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Poteau Cap Taillat",
+      "lat": 43.172955,
+      "lon": 6.63928,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245560389_8670bc9ebf_b.jpg}} [[https://live.staticflickr.com/65535/51245560389_8670bc9ebf_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Poteau Douaniers",
+      "lat": 43.176061,
+      "lon": 6.639048,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244991648_657b377948_b.jpg}} [[https://live.staticflickr.com/65535/51244991648_657b377948_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Poteau vers Gigaro",
+      "lat": 43.183437,
+      "lon": 6.614923,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244070532_2d6586c927_b.jpg}} [[https://live.staticflickr.com/65535/51244070532_2d6586c927_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Poteau vers Lardier",
+      "lat": 43.169005,
+      "lon": 6.612778,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245021393_5d00ca312f_b.jpg}} [[https://live.staticflickr.com/65535/51245021393_5d00ca312f_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Roc tombolo de Taillat",
+      "lat": 43.173808,
+      "lon": 6.637201,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244997678_5473800dec_b.jpg}} [[https://live.staticflickr.com/65535/51244997678_5473800dec_b.jpg|Agrandir]] Le cap Taillat, aussi appelé cap Cartaya est un cap situé au sud de la presqu'île de Saint-Tropez. Il marque la limite entre les communes de Ramatuelle et de la Croix-Valmer. Il a la particularité d’être relié à la cote par un isthme sableux (un tombolo). Le cap Taillat est un site classé et inscrit.",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Taillat ouest",
+      "lat": 43.16725,
+      "lon": 6.626293,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51245565789_fc0ed50045_b.jpg}} [[https://live.staticflickr.com/65535/51245565789_fc0ed50045_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    },
+    {
+      "name": "Vers Lardier 1",
+      "lat": 43.167614,
+      "lon": 6.614842,
+      "alt": 0,
+      "comment": "{{https://live.staticflickr.com/65535/51244822041_91d6a2f0cb_b.jpg}} [[https://live.staticflickr.com/65535/51244822041_91d6a2f0cb_b.jpg|Agrandir]]",
+      "photo": null,
+      "audio": null,
+      "video": null,
+      "youtube": null
+    }
+  ],
+  "track": [
+    [
+      43.185682,
+      6.599128,
+      0
+    ],
+    [
+      43.185782,
+      6.59891,
+      0
+    ],
+    [
+      43.185618,
+      6.598809,
+      0
+    ],
+    [
+      43.185437,
+      6.598749,
+      0
+    ],
+    [
+      43.185284,
+      6.598618,
+      0
+    ],
+    [
+      43.185142,
+      6.598452,
+      0
+    ],
+    [
+      43.184952,
+      6.598444,
+      0
+    ],
+    [
+      43.184769,
+      6.598428,
+      0
+    ],
+    [
+      43.184585,
+      6.598441,
+      0
+    ],
+    [
+      43.184398,
+      6.598442,
+      0
+    ],
+    [
+      43.184285,
+      6.598645,
+      0
+    ],
+    [
+      43.184267,
+      6.59889,
+      0
+    ],
+    [
+      43.184226,
+      6.599139,
+      0
+    ],
+    [
+      43.184184,
+      6.59938,
+      0
+    ],
+    [
+      43.184111,
+      6.599608,
+      0
+    ],
+    [
+      43.184032,
+      6.599843,
+      0
+    ],
+    [
+      43.183948,
+      6.600072,
+      0
+    ],
+    [
+      43.18385,
+      6.600282,
+      0
+    ],
+    [
+      43.183805,
+      6.600523,
+      0
+    ],
+    [
+      43.183693,
+      6.600725,
+      0
+    ],
+    [
+      43.183608,
+      6.600945,
+      0
+    ],
+    [
+      43.183544,
+      6.601189,
+      0
+    ],
+    [
+      43.183427,
+      6.60138,
+      0
+    ],
+    [
+      43.183244,
+      6.601424,
+      0
+    ],
+    [
+      43.183064,
+      6.601485,
+      0
+    ],
+    [
+      43.182884,
+      6.601422,
+      0
+    ],
+    [
+      43.182713,
+      6.60152,
+      0
+    ],
+    [
+      43.182542,
+      6.601625,
+      0
+    ],
+    [
+      43.18241,
+      6.601811,
+      0
+    ],
+    [
+      43.18227,
+      6.601983,
+      0
+    ],
+    [
+      43.18212,
+      6.602124,
+      0
+    ],
+    [
+      43.181955,
+      6.602228,
+      0
+    ],
+    [
+      43.181829,
+      6.602419,
+      0
+    ],
+    [
+      43.181645,
+      6.602405,
+      0
+    ],
+    [
+      43.181466,
+      6.602446,
+      0
+    ],
+    [
+      43.181311,
+      6.602589,
+      0
+    ],
+    [
+      43.181153,
+      6.602713,
+      0
+    ],
+    [
+      43.180972,
+      6.60278,
+      0
+    ],
+    [
+      43.180823,
+      6.602924,
+      0
+    ],
+    [
+      43.180642,
+      6.602952,
+      0
+    ],
+    [
+      43.180505,
+      6.603115,
+      0
+    ],
+    [
+      43.180343,
+      6.602998,
+      0
+    ],
+    [
+      43.180162,
+      6.602958,
+      0
+    ],
+    [
+      43.180008,
+      6.602816,
+      0
+    ],
+    [
+      43.179824,
+      6.602787,
+      0
+    ],
+    [
+      43.179652,
+      6.602868,
+      0
+    ],
+    [
+      43.179468,
+      6.602876,
+      0
+    ],
+    [
+      43.179286,
+      6.602897,
+      0
+    ],
+    [
+      43.179103,
+      6.602934,
+      0
+    ],
+    [
+      43.178953,
+      6.603072,
+      0
+    ],
+    [
+      43.178872,
+      6.603294,
+      0
+    ],
+    [
+      43.178698,
+      6.603371,
+      0
+    ],
+    [
+      43.178533,
+      6.603484,
+      0
+    ],
+    [
+      43.178438,
+      6.603699,
+      0
+    ],
+    [
+      43.178262,
+      6.603752,
+      0
+    ],
+    [
+      43.178079,
+      6.603776,
+      0
+    ],
+    [
+      43.177898,
+      6.603824,
+      0
+    ],
+    [
+      43.17772,
+      6.603914,
+      0
+    ],
+    [
+      43.177569,
+      6.604065,
+      0
+    ],
+    [
+      43.177438,
+      6.603893,
+      0
+    ],
+    [
+      43.177262,
+      6.603828,
+      0
+    ],
+    [
+      43.177123,
+      6.603671,
+      0
+    ],
+    [
+      43.176942,
+      6.603712,
+      0
+    ],
+    [
+      43.176864,
+      6.603943,
+      0
+    ],
+    [
+      43.176762,
+      6.604153,
+      0
+    ],
+    [
+      43.176635,
+      6.60433,
+      0
+    ],
+    [
+      43.176509,
+      6.60451,
+      0
+    ],
+    [
+      43.176329,
+      6.604467,
+      0
+    ],
+    [
+      43.176141,
+      6.604499,
+      0
+    ],
+    [
+      43.175966,
+      6.604564,
+      0
+    ],
+    [
+      43.175785,
+      6.604561,
+      0
+    ],
+    [
+      43.175623,
+      6.604685,
+      0
+    ],
+    [
+      43.17544,
+      6.604664,
+      0
+    ],
+    [
+      43.175315,
+      6.604485,
+      0
+    ],
+    [
+      43.175196,
+      6.604295,
+      0
+    ],
+    [
+      43.175015,
+      6.604297,
+      0
+    ],
+    [
+      43.174887,
+      6.604116,
+      0
+    ],
+    [
+      43.17497,
+      6.603885,
+      0
+    ],
+    [
+      43.174923,
+      6.603647,
+      0
+    ],
+    [
+      43.174823,
+      6.60344,
+      0
+    ],
+    [
+      43.174827,
+      6.603191,
+      0
+    ],
+    [
+      43.174658,
+      6.603088,
+      0
+    ],
+    [
+      43.174477,
+      6.603078,
+      0
+    ],
+    [
+      43.174305,
+      6.60316,
+      0
+    ],
+    [
+      43.174147,
+      6.603282,
+      0
+    ],
+    [
+      43.174067,
+      6.603507,
+      0
+    ],
+    [
+      43.174018,
+      6.603746,
+      0
+    ],
+    [
+      43.173968,
+      6.603986,
+      0
+    ],
+    [
+      43.173902,
+      6.604221,
+      0
+    ],
+    [
+      43.17388,
+      6.604467,
+      0
+    ],
+    [
+      43.173884,
+      6.604715,
+      0
+    ],
+    [
+      43.173879,
+      6.60497,
+      0
+    ],
+    [
+      43.173837,
+      6.605214,
+      0
+    ],
+    [
+      43.173765,
+      6.605443,
+      0
+    ],
+    [
+      43.173704,
+      6.605681,
+      0
+    ],
+    [
+      43.173696,
+      6.605932,
+      0
+    ],
+    [
+      43.17382,
+      6.606118,
+      0
+    ],
+    [
+      43.173705,
+      6.606317,
+      0
+    ],
+    [
+      43.173601,
+      6.606519,
+      0
+    ],
+    [
+      43.173568,
+      6.606763,
+      0
+    ],
+    [
+      43.173579,
+      6.607014,
+      0
+    ],
+    [
+      43.173487,
+      6.607237,
+      0
+    ],
+    [
+      43.173422,
+      6.60747,
+      0
+    ],
+    [
+      43.173321,
+      6.607676,
+      0
+    ],
+    [
+      43.173268,
+      6.607917,
+      0
+    ],
+    [
+      43.173247,
+      6.608163,
+      0
+    ],
+    [
+      43.173166,
+      6.608385,
+      0
+    ],
+    [
+      43.172984,
+      6.608409,
+      0
+    ],
+    [
+      43.172799,
+      6.608376,
+      0
+    ],
+    [
+      43.172616,
+      6.6084,
+      0
+    ],
+    [
+      43.172445,
+      6.608508,
+      0
+    ],
+    [
+      43.172287,
+      6.608628,
+      0
+    ],
+    [
+      43.172131,
+      6.608757,
+      0
+    ],
+    [
+      43.171951,
+      6.608748,
+      0
+    ],
+    [
+      43.171766,
+      6.608717,
+      0
+    ],
+    [
+      43.171595,
+      6.608626,
+      0
+    ],
+    [
+      43.171445,
+      6.608472,
+      0
+    ],
+    [
+      43.171277,
+      6.608369,
+      0
+    ],
+    [
+      43.171142,
+      6.608533,
+      0
+    ],
+    [
+      43.170986,
+      6.608658,
+      0
+    ],
+    [
+      43.170801,
+      6.608627,
+      0
+    ],
+    [
+      43.170657,
+      6.60878,
+      0
+    ],
+    [
+      43.170515,
+      6.608934,
+      0
+    ],
+    [
+      43.170373,
+      6.609097,
+      0
+    ],
+    [
+      43.170299,
+      6.609324,
+      0
+    ],
+    [
+      43.170185,
+      6.609516,
+      0
+    ],
+    [
+      43.170036,
+      6.609662,
+      0
+    ],
+    [
+      43.169861,
+      6.609732,
+      0
+    ],
+    [
+      43.169691,
+      6.609837,
+      0
+    ],
+    [
+      43.169561,
+      6.610008,
+      0
+    ],
+    [
+      43.169461,
+      6.610216,
+      0
+    ],
+    [
+      43.16935,
+      6.610413,
+      0
+    ],
+    [
+      43.169321,
+      6.610661,
+      0
+    ],
+    [
+      43.169225,
+      6.610872,
+      0
+    ],
+    [
+      43.169315,
+      6.611088,
+      0
+    ],
+    [
+      43.169328,
+      6.611336,
+      0
+    ],
+    [
+      43.169332,
+      6.611594,
+      0
+    ],
+    [
+      43.169444,
+      6.611788,
+      0
+    ],
+    [
+      43.169268,
+      6.611858,
+      0
+    ],
+    [
+      43.169195,
+      6.612092,
+      0
+    ],
+    [
+      43.169111,
+      6.612316,
+      0
+    ],
+    [
+      43.16908,
+      6.612576,
+      0
+    ],
+    [
+      43.168972,
+      6.612787,
+      0
+    ],
+    [
+      43.168791,
+      6.612874,
+      0
+    ],
+    [
+      43.168638,
+      6.613015,
+      0
+    ],
+    [
+      43.16852,
+      6.613204,
+      0
+    ],
+    [
+      43.168363,
+      6.613352,
+      0
+    ],
+    [
+      43.168217,
+      6.613504,
+      0
+    ],
+    [
+      43.168078,
+      6.613666,
+      0
+    ],
+    [
+      43.167947,
+      6.613835,
+      0
+    ],
+    [
+      43.167838,
+      6.614047,
+      0
+    ],
+    [
+      43.167755,
+      6.614266,
+      0
+    ],
+    [
+      43.167683,
+      6.614502,
+      0
+    ],
+    [
+      43.167635,
+      6.614749,
+      0
+    ],
+    [
+      43.167539,
+      6.614959,
+      0
+    ],
+    [
+      43.16751,
+      6.615207,
+      0
+    ],
+    [
+      43.167441,
+      6.615445,
+      0
+    ],
+    [
+      43.16737,
+      6.615686,
+      0
+    ],
+    [
+      43.167316,
+      6.615928,
+      0
+    ],
+    [
+      43.167184,
+      6.616095,
+      0
+    ],
+    [
+      43.167018,
+      6.61621,
+      0
+    ],
+    [
+      43.166883,
+      6.616377,
+      0
+    ],
+    [
+      43.166726,
+      6.616499,
+      0
+    ],
+    [
+      43.166549,
+      6.616563,
+      0
+    ],
+    [
+      43.166409,
+      6.616719,
+      0
+    ],
+    [
+      43.166269,
+      6.61688,
+      0
+    ],
+    [
+      43.166138,
+      6.617067,
+      0
+    ],
+    [
+      43.166015,
+      6.617248,
+      0
+    ],
+    [
+      43.165892,
+      6.617442,
+      0
+    ],
+    [
+      43.165741,
+      6.617576,
+      0
+    ],
+    [
+      43.165576,
+      6.617682,
+      0
+    ],
+    [
+      43.165402,
+      6.617776,
+      0
+    ],
+    [
+      43.165239,
+      6.617901,
+      0
+    ],
+    [
+      43.165083,
+      6.618032,
+      0
+    ],
+    [
+      43.164918,
+      6.618143,
+      0
+    ],
+    [
+      43.164737,
+      6.618205,
+      0
+    ],
+    [
+      43.164551,
+      6.618256,
+      0
+    ],
+    [
+      43.164377,
+      6.618362,
+      0
+    ],
+    [
+      43.164214,
+      6.618492,
+      0
+    ],
+    [
+      43.16403,
+      6.618562,
+      0
+    ],
+    [
+      43.163849,
+      6.618602,
+      0
+    ],
+    [
+      43.16368,
+      6.618698,
+      0
+    ],
+    [
+      43.163502,
+      6.61878,
+      0
+    ],
+    [
+      43.163346,
+      6.618913,
+      0
+    ],
+    [
+      43.163167,
+      6.618975,
+      0
+    ],
+    [
+      43.162981,
+      6.618966,
+      0
+    ],
+    [
+      43.162792,
+      6.618935,
+      0
+    ],
+    [
+      43.162645,
+      6.619098,
+      0
+    ],
+    [
+      43.1625,
+      6.619248,
+      0
+    ],
+    [
+      43.16236,
+      6.619424,
+      0
+    ],
+    [
+      43.162171,
+      6.619419,
+      0
+    ],
+    [
+      43.16199,
+      6.619427,
+      0
+    ],
+    [
+      43.161807,
+      6.619427,
+      0
+    ],
+    [
+      43.161627,
+      6.619366,
+      0
+    ],
+    [
+      43.161441,
+      6.619363,
+      0
+    ],
+    [
+      43.161282,
+      6.619501,
+      0
+    ],
+    [
+      43.161197,
+      6.619734,
+      0
+    ],
+    [
+      43.161015,
+      6.619772,
+      0
+    ],
+    [
+      43.160825,
+      6.619739,
+      0
+    ],
+    [
+      43.160641,
+      6.619746,
+      0
+    ],
+    [
+      43.160455,
+      6.619713,
+      0
+    ],
+    [
+      43.160307,
+      6.61986,
+      0
+    ],
+    [
+      43.160125,
+      6.619882,
+      0
+    ],
+    [
+      43.160126,
+      6.62013,
+      0
+    ],
+    [
+      43.160283,
+      6.620262,
+      0
+    ],
+    [
+      43.160566,
+      6.620711,
+      0
+    ],
+    [
+      43.160618,
+      6.620949,
+      0
+    ],
+    [
+      43.160694,
+      6.621177,
+      0
+    ],
+    [
+      43.160681,
+      6.621434,
+      0
+    ],
+    [
+      43.160792,
+      6.621634,
+      0
+    ],
+    [
+      43.160916,
+      6.621815,
+      0
+    ],
+    [
+      43.161049,
+      6.62199,
+      0
+    ],
+    [
+      43.161229,
+      6.622068,
+      0
+    ],
+    [
+      43.16141,
+      6.622032,
+      0
+    ],
+    [
+      43.161586,
+      6.621947,
+      0
+    ],
+    [
+      43.161759,
+      6.621854,
+      0
+    ],
+    [
+      43.161904,
+      6.621693,
+      0
+    ],
+    [
+      43.162074,
+      6.621611,
+      0
+    ],
+    [
+      43.162248,
+      6.621546,
+      0
+    ],
+    [
+      43.162376,
+      6.621351,
+      0
+    ],
+    [
+      43.16256,
+      6.621302,
+      0
+    ],
+    [
+      43.162742,
+      6.621266,
+      0
+    ],
+    [
+      43.162921,
+      6.621239,
+      0
+    ],
+    [
+      43.163095,
+      6.621315,
+      0
+    ],
+    [
+      43.163264,
+      6.621404,
+      0
+    ],
+    [
+      43.163435,
+      6.621479,
+      0
+    ],
+    [
+      43.163615,
+      6.621426,
+      0
+    ],
+    [
+      43.163775,
+      6.621559,
+      0
+    ],
+    [
+      43.163898,
+      6.621749,
+      0
+    ],
+    [
+      43.164086,
+      6.621767,
+      0
+    ],
+    [
+      43.164266,
+      6.62179,
+      0
+    ],
+    [
+      43.16443,
+      6.621907,
+      0
+    ],
+    [
+      43.164601,
+      6.622005,
+      0
+    ],
+    [
+      43.164729,
+      6.622183,
+      0
+    ],
+    [
+      43.164867,
+      6.622363,
+      0
+    ],
+    [
+      43.165018,
+      6.622517,
+      0
+    ],
+    [
+      43.165178,
+      6.622634,
+      0
+    ],
+    [
+      43.16531,
+      6.622811,
+      0
+    ],
+    [
+      43.165456,
+      6.622966,
+      0
+    ],
+    [
+      43.165604,
+      6.623126,
+      0
+    ],
+    [
+      43.1657,
+      6.623336,
+      0
+    ],
+    [
+      43.165838,
+      6.623506,
+      0
+    ],
+    [
+      43.16598,
+      6.623666,
+      0
+    ],
+    [
+      43.16588,
+      6.623876,
+      0
+    ],
+    [
+      43.16606,
+      6.623867,
+      0
+    ],
+    [
+      43.166081,
+      6.624113,
+      0
+    ],
+    [
+      43.166135,
+      6.624349,
+      0
+    ],
+    [
+      43.16629,
+      6.624489,
+      0
+    ],
+    [
+      43.166388,
+      6.624704,
+      0
+    ],
+    [
+      43.166413,
+      6.624957,
+      0
+    ],
+    [
+      43.166352,
+      6.625191,
+      0
+    ],
+    [
+      43.166326,
+      6.625442,
+      0
+    ],
+    [
+      43.166452,
+      6.625622,
+      0
+    ],
+    [
+      43.166608,
+      6.625761,
+      0
+    ],
+    [
+      43.166755,
+      6.625902,
+      0
+    ],
+    [
+      43.166829,
+      6.62613,
+      0
+    ],
+    [
+      43.167008,
+      6.626192,
+      0
+    ],
+    [
+      43.167185,
+      6.626255,
+      0
+    ],
+    [
+      43.167371,
+      6.626294,
+      0
+    ],
+    [
+      43.167554,
+      6.626295,
+      0
+    ],
+    [
+      43.167739,
+      6.626321,
+      0
+    ],
+    [
+      43.167862,
+      6.626501,
+      0
+    ],
+    [
+      43.167998,
+      6.626668,
+      0
+    ],
+    [
+      43.168139,
+      6.626822,
+      0
+    ],
+    [
+      43.168246,
+      6.627026,
+      0
+    ],
+    [
+      43.168419,
+      6.627117,
+      0
+    ],
+    [
+      43.168591,
+      6.627227,
+      0
+    ],
+    [
+      43.168739,
+      6.62737,
+      0
+    ],
+    [
+      43.168913,
+      6.627452,
+      0
+    ],
+    [
+      43.169071,
+      6.627572,
+      0
+    ],
+    [
+      43.169166,
+      6.627788,
+      0
+    ],
+    [
+      43.169257,
+      6.628001,
+      0
+    ],
+    [
+      43.16944,
+      6.627988,
+      0
+    ],
+    [
+      43.169619,
+      6.627952,
+      0
+    ],
+    [
+      43.16967,
+      6.628191,
+      0
+    ],
+    [
+      43.169773,
+      6.628405,
+      0
+    ],
+    [
+      43.169808,
+      6.628653,
+      0
+    ],
+    [
+      43.169863,
+      6.62889,
+      0
+    ],
+    [
+      43.170008,
+      6.629046,
+      0
+    ],
+    [
+      43.170141,
+      6.629221,
+      0
+    ],
+    [
+      43.170063,
+      6.629447,
+      0
+    ],
+    [
+      43.169883,
+      6.629463,
+      0
+    ],
+    [
+      43.169949,
+      6.629703,
+      0
+    ],
+    [
+      43.170124,
+      6.629805,
+      0
+    ],
+    [
+      43.170311,
+      6.629812,
+      0
+    ],
+    [
+      43.170495,
+      6.629842,
+      0
+    ],
+    [
+      43.170659,
+      6.629951,
+      0
+    ],
+    [
+      43.170708,
+      6.63019,
+      0
+    ],
+    [
+      43.170861,
+      6.630326,
+      0
+    ],
+    [
+      43.17102,
+      6.630459,
+      0
+    ],
+    [
+      43.171115,
+      6.630682,
+      0
+    ],
+    [
+      43.171107,
+      6.630936,
+      0
+    ],
+    [
+      43.171115,
+      6.631184,
+      0
+    ],
+    [
+      43.171089,
+      6.631435,
+      0
+    ],
+    [
+      43.170941,
+      6.63158,
+      0
+    ],
+    [
+      43.171024,
+      6.631817,
+      0
+    ],
+    [
+      43.171162,
+      6.63199,
+      0
+    ],
+    [
+      43.171347,
+      6.631991,
+      0
+    ],
+    [
+      43.171524,
+      6.631932,
+      0
+    ],
+    [
+      43.171708,
+      6.631958,
+      0
+    ],
+    [
+      43.171877,
+      6.632052,
+      0
+    ],
+    [
+      43.171999,
+      6.632235,
+      0
+    ],
+    [
+      43.172176,
+      6.632306,
+      0
+    ],
+    [
+      43.172232,
+      6.632543,
+      0
+    ],
+    [
+      43.172344,
+      6.632744,
+      0
+    ],
+    [
+      43.172421,
+      6.632967,
+      0
+    ],
+    [
+      43.172508,
+      6.63319,
+      0
+    ],
+    [
+      43.172493,
+      6.633446,
+      0
+    ],
+    [
+      43.172544,
+      6.63369,
+      0
+    ],
+    [
+      43.172601,
+      6.633929,
+      0
+    ],
+    [
+      43.172639,
+      6.634174,
+      0
+    ],
+    [
+      43.17268,
+      6.634423,
+      0
+    ],
+    [
+      43.17271,
+      6.634675,
+      0
+    ],
+    [
+      43.172738,
+      6.634925,
+      0
+    ],
+    [
+      43.172754,
+      6.635177,
+      0
+    ],
+    [
+      43.172755,
+      6.635432,
+      0
+    ],
+    [
+      43.172738,
+      6.635683,
+      0
+    ],
+    [
+      43.172711,
+      6.635934,
+      0
+    ],
+    [
+      43.17267,
+      6.636186,
+      0
+    ],
+    [
+      43.172643,
+      6.636442,
+      0
+    ],
+    [
+      43.172626,
+      6.6367,
+      0
+    ],
+    [
+      43.172661,
+      6.636956,
+      0
+    ],
+    [
+      43.172588,
+      6.637187,
+      0
+    ],
+    [
+      43.172506,
+      6.637416,
+      0
+    ],
+    [
+      43.172474,
+      6.637665,
+      0
+    ],
+    [
+      43.17243,
+      6.637909,
+      0
+    ],
+    [
+      43.172492,
+      6.638148,
+      0
+    ],
+    [
+      43.172545,
+      6.638391,
+      0
+    ],
+    [
+      43.17263,
+      6.638622,
+      0
+    ],
+    [
+      43.172713,
+      6.638854,
+      0
+    ],
+    [
+      43.172729,
+      6.639101,
+      0
+    ],
+    [
+      43.172868,
+      6.639265,
+      0
+    ],
+    [
+      43.173054,
+      6.639235,
+      0
+    ],
+    [
+      43.173221,
+      6.639137,
+      0
+    ],
+    [
+      43.173399,
+      6.639194,
+      0
+    ],
+    [
+      43.173574,
+      6.639289,
+      0
+    ],
+    [
+      43.173748,
+      6.639398,
+      0
+    ],
+    [
+      43.173911,
+      6.639529,
+      0
+    ],
+    [
+      43.174084,
+      6.639634,
+      0
+    ],
+    [
+      43.174244,
+      6.639771,
+      0
+    ],
+    [
+      43.174426,
+      6.639825,
+      0
+    ],
+    [
+      43.17461,
+      6.639821,
+      0
+    ],
+    [
+      43.174794,
+      6.639798,
+      0
+    ],
+    [
+      43.174977,
+      6.639793,
+      0
+    ],
+    [
+      43.175153,
+      6.639872,
+      0
+    ],
+    [
+      43.175342,
+      6.639898,
+      0
+    ],
+    [
+      43.175522,
+      6.639864,
+      0
+    ],
+    [
+      43.175594,
+      6.639631,
+      0
+    ],
+    [
+      43.175704,
+      6.639429,
+      0
+    ],
+    [
+      43.175829,
+      6.639248,
+      0
+    ],
+    [
+      43.175965,
+      6.639073,
+      0
+    ],
+    [
+      43.176037,
+      6.639309,
+      0
+    ],
+    [
+      43.176089,
+      6.639557,
+      0
+    ],
+    [
+      43.176175,
+      6.639776,
+      0
+    ],
+    [
+      43.176201,
+      6.640025,
+      0
+    ],
+    [
+      43.176173,
+      6.639776,
+      0
+    ],
+    [
+      43.176097,
+      6.639551,
+      0
+    ],
+    [
+      43.176056,
+      6.639308,
+      0
+    ],
+    [
+      43.17607,
+      6.639056,
+      0
+    ],
+    [
+      43.176144,
+      6.638826,
+      0
+    ],
+    [
+      43.176223,
+      6.638598,
+      0
+    ],
+    [
+      43.176291,
+      6.638359,
+      0
+    ],
+    [
+      43.176357,
+      6.638121,
+      0
+    ],
+    [
+      43.17641,
+      6.637875,
+      0
+    ],
+    [
+      43.176429,
+      6.637618,
+      0
+    ],
+    [
+      43.176479,
+      6.637371,
+      0
+    ],
+    [
+      43.176535,
+      6.637126,
+      0
+    ],
+    [
+      43.176602,
+      6.636887,
+      0
+    ],
+    [
+      43.176683,
+      6.63665,
+      0
+    ],
+    [
+      43.176774,
+      6.636428,
+      0
+    ],
+    [
+      43.176875,
+      6.636223,
+      0
+    ],
+    [
+      43.176989,
+      6.636023,
+      0
+    ],
+    [
+      43.177107,
+      6.635815,
+      0
+    ],
+    [
+      43.177196,
+      6.635596,
+      0
+    ],
+    [
+      43.177271,
+      6.635359,
+      0
+    ],
+    [
+      43.177361,
+      6.635144,
+      0
+    ],
+    [
+      43.17748,
+      6.634949,
+      0
+    ],
+    [
+      43.177622,
+      6.634786,
+      0
+    ],
+    [
+      43.177785,
+      6.634672,
+      0
+    ],
+    [
+      43.177968,
+      6.63464,
+      0
+    ],
+    [
+      43.178129,
+      6.634507,
+      0
+    ],
+    [
+      43.178269,
+      6.634349,
+      0
+    ],
+    [
+      43.178385,
+      6.634146,
+      0
+    ],
+    [
+      43.178507,
+      6.633963,
+      0
+    ],
+    [
+      43.178683,
+      6.633901,
+      0
+    ],
+    [
+      43.178826,
+      6.633751,
+      0
+    ],
+    [
+      43.178966,
+      6.633576,
+      0
+    ],
+    [
+      43.179099,
+      6.633392,
+      0
+    ],
+    [
+      43.179238,
+      6.633225,
+      0
+    ],
+    [
+      43.179393,
+      6.633099,
+      0
+    ],
+    [
+      43.179539,
+      6.632941,
+      0
+    ],
+    [
+      43.179692,
+      6.632796,
+      0
+    ],
+    [
+      43.179855,
+      6.632665,
+      0
+    ],
+    [
+      43.180028,
+      6.632576,
+      0
+    ],
+    [
+      43.180191,
+      6.632461,
+      0
+    ],
+    [
+      43.180339,
+      6.632307,
+      0
+    ],
+    [
+      43.180495,
+      6.632172,
+      0
+    ],
+    [
+      43.180648,
+      6.632032,
+      0
+    ],
+    [
+      43.180751,
+      6.631821,
+      0
+    ],
+    [
+      43.180853,
+      6.631615,
+      0
+    ],
+    [
+      43.180945,
+      6.631393,
+      0
+    ],
+    [
+      43.18103,
+      6.631166,
+      0
+    ],
+    [
+      43.181118,
+      6.63094,
+      0
+    ],
+    [
+      43.181218,
+      6.630729,
+      0
+    ],
+    [
+      43.181319,
+      6.630518,
+      0
+    ],
+    [
+      43.181398,
+      6.630287,
+      0
+    ],
+    [
+      43.181487,
+      6.630059,
+      0
+    ],
+    [
+      43.18161,
+      6.629866,
+      0
+    ],
+    [
+      43.181765,
+      6.629717,
+      0
+    ],
+    [
+      43.181933,
+      6.629594,
+      0
+    ],
+    [
+      43.182123,
+      6.629616,
+      0
+    ],
+    [
+      43.182273,
+      6.629473,
+      0
+    ],
+    [
+      43.182375,
+      6.62926,
+      0
+    ],
+    [
+      43.182551,
+      6.629327,
+      0
+    ],
+    [
+      43.182733,
+      6.629275,
+      0
+    ],
+    [
+      43.182915,
+      6.62925,
+      0
+    ],
+    [
+      43.183085,
+      6.629339,
+      0
+    ],
+    [
+      43.183265,
+      6.629408,
+      0
+    ],
+    [
+      43.183447,
+      6.629439,
+      0
+    ],
+    [
+      43.183635,
+      6.62946,
+      0
+    ],
+    [
+      43.183821,
+      6.629445,
+      0
+    ],
+    [
+      43.184004,
+      6.629378,
+      0
+    ],
+    [
+      43.184185,
+      6.629432,
+      0
+    ],
+    [
+      43.184367,
+      6.629496,
+      0
+    ],
+    [
+      43.184549,
+      6.629452,
+      0
+    ],
+    [
+      43.184723,
+      6.629363,
+      0
+    ],
+    [
+      43.184906,
+      6.62933,
+      0
+    ],
+    [
+      43.185086,
+      6.629274,
+      0
+    ],
+    [
+      43.185266,
+      6.629242,
+      0
+    ],
+    [
+      43.185433,
+      6.629135,
+      0
+    ],
+    [
+      43.185609,
+      6.629082,
+      0
+    ],
+    [
+      43.185794,
+      6.629083,
+      0
+    ],
+    [
+      43.185973,
+      6.629127,
+      0
+    ],
+    [
+      43.186126,
+      6.628983,
+      0
+    ],
+    [
+      43.186274,
+      6.628829,
+      0
+    ],
+    [
+      43.18644,
+      6.62872,
+      0
+    ],
+    [
+      43.186622,
+      6.628719,
+      0
+    ],
+    [
+      43.186796,
+      6.628648,
+      0
+    ],
+    [
+      43.186937,
+      6.628486,
+      0
+    ],
+    [
+      43.187097,
+      6.62835,
+      0
+    ],
+    [
+      43.187279,
+      6.628402,
+      0
+    ],
+    [
+      43.18742,
+      6.628565,
+      0
+    ],
+    [
+      43.187601,
+      6.628538,
+      0
+    ],
+    [
+      43.187786,
+      6.62852,
+      0
+    ],
+    [
+      43.187962,
+      6.62845,
+      0
+    ],
+    [
+      43.18814,
+      6.628384,
+      0
+    ],
+    [
+      43.188307,
+      6.628292,
+      0
+    ],
+    [
+      43.188461,
+      6.62814,
+      0
+    ],
+    [
+      43.188605,
+      6.627969,
+      0
+    ],
+    [
+      43.188748,
+      6.627819,
+      0
+    ],
+    [
+      43.188897,
+      6.627658,
+      0
+    ],
+    [
+      43.189061,
+      6.627532,
+      0
+    ],
+    [
+      43.189215,
+      6.627384,
+      0
+    ],
+    [
+      43.189362,
+      6.627228,
+      0
+    ],
+    [
+      43.189548,
+      6.627231,
+      0
+    ],
+    [
+      43.189725,
+      6.627277,
+      0
+    ],
+    [
+      43.189896,
+      6.627189,
+      0
+    ],
+    [
+      43.189803,
+      6.626964,
+      0
+    ],
+    [
+      43.18979,
+      6.626718,
+      0
+    ],
+    [
+      43.18988,
+      6.626501,
+      0
+    ],
+    [
+      43.189938,
+      6.62626,
+      0
+    ],
+    [
+      43.190035,
+      6.62605,
+      0
+    ],
+    [
+      43.190102,
+      6.62628,
+      0
+    ],
+    [
+      43.190271,
+      6.626381,
+      0
+    ],
+    [
+      43.190452,
+      6.626341,
+      0
+    ],
+    [
+      43.190639,
+      6.626304,
+      0
+    ],
+    [
+      43.190808,
+      6.626207,
+      0
+    ],
+    [
+      43.190958,
+      6.626059,
+      0
+    ],
+    [
+      43.191097,
+      6.625883,
+      0
+    ],
+    [
+      43.191226,
+      6.625692,
+      0
+    ],
+    [
+      43.191367,
+      6.62552,
+      0
+    ],
+    [
+      43.191489,
+      6.625327,
+      0
+    ],
+    [
+      43.191613,
+      6.625135,
+      0
+    ],
+    [
+      43.191755,
+      6.624975,
+      0
+    ],
+    [
+      43.191939,
+      6.624999,
+      0
+    ],
+    [
+      43.19211,
+      6.624911,
+      0
+    ],
+    [
+      43.191978,
+      6.624723,
+      0
+    ],
+    [
+      43.191919,
+      6.62449,
+      0
+    ],
+    [
+      43.191808,
+      6.624279,
+      0
+    ],
+    [
+      43.19166,
+      6.624139,
+      0
+    ],
+    [
+      43.191487,
+      6.62406,
+      0
+    ],
+    [
+      43.191305,
+      6.624103,
+      0
+    ],
+    [
+      43.191149,
+      6.624229,
+      0
+    ],
+    [
+      43.190971,
+      6.624313,
+      0
+    ],
+    [
+      43.190788,
+      6.624343,
+      0
+    ],
+    [
+      43.190608,
+      6.624308,
+      0
+    ],
+    [
+      43.190431,
+      6.624229,
+      0
+    ],
+    [
+      43.190265,
+      6.62413,
+      0
+    ],
+    [
+      43.190095,
+      6.624034,
+      0
+    ],
+    [
+      43.189936,
+      6.623907,
+      0
+    ],
+    [
+      43.189781,
+      6.623778,
+      0
+    ],
+    [
+      43.189791,
+      6.623529,
+      0
+    ],
+    [
+      43.189901,
+      6.623328,
+      0
+    ],
+    [
+      43.19001,
+      6.623112,
+      0
+    ],
+    [
+      43.190123,
+      6.622915,
+      0
+    ],
+    [
+      43.190261,
+      6.62275,
+      0
+    ],
+    [
+      43.190404,
+      6.622597,
+      0
+    ],
+    [
+      43.190521,
+      6.62241,
+      0
+    ],
+    [
+      43.190567,
+      6.622165,
+      0
+    ],
+    [
+      43.190561,
+      6.621912,
+      0
+    ],
+    [
+      43.190635,
+      6.621675,
+      0
+    ],
+    [
+      43.190749,
+      6.621469,
+      0
+    ],
+    [
+      43.190883,
+      6.621285,
+      0
+    ],
+    [
+      43.190994,
+      6.621076,
+      0
+    ],
+    [
+      43.191125,
+      6.620891,
+      0
+    ],
+    [
+      43.191235,
+      6.620693,
+      0
+    ],
+    [
+      43.191344,
+      6.620478,
+      0
+    ],
+    [
+      43.191457,
+      6.620275,
+      0
+    ],
+    [
+      43.191594,
+      6.620099,
+      0
+    ],
+    [
+      43.191573,
+      6.619853,
+      0
+    ],
+    [
+      43.191584,
+      6.6196,
+      0
+    ],
+    [
+      43.191612,
+      6.619353,
+      0
+    ],
+    [
+      43.191565,
+      6.619101,
+      0
+    ],
+    [
+      43.191444,
+      6.618913,
+      0
+    ],
+    [
+      43.191358,
+      6.618688,
+      0
+    ],
+    [
+      43.191332,
+      6.618444,
+      0
+    ],
+    [
+      43.191336,
+      6.618192,
+      0
+    ],
+    [
+      43.191392,
+      6.617941,
+      0
+    ],
+    [
+      43.191379,
+      6.617694,
+      0
+    ],
+    [
+      43.191372,
+      6.617439,
+      0
+    ],
+    [
+      43.191405,
+      6.617181,
+      0
+    ],
+    [
+      43.191247,
+      6.617052,
+      0
+    ],
+    [
+      43.191066,
+      6.617084,
+      0
+    ],
+    [
+      43.190885,
+      6.617096,
+      0
+    ],
+    [
+      43.190698,
+      6.617108,
+      0
+    ],
+    [
+      43.190511,
+      6.617154,
+      0
+    ],
+    [
+      43.190321,
+      6.617177,
+      0
+    ],
+    [
+      43.190147,
+      6.617109,
+      0
+    ],
+    [
+      43.189984,
+      6.616999,
+      0
+    ],
+    [
+      43.189818,
+      6.616875,
+      0
+    ],
+    [
+      43.189666,
+      6.616734,
+      0
+    ],
+    [
+      43.189522,
+      6.616577,
+      0
+    ],
+    [
+      43.189386,
+      6.616407,
+      0
+    ],
+    [
+      43.189273,
+      6.61621,
+      0
+    ],
+    [
+      43.189164,
+      6.616,
+      0
+    ],
+    [
+      43.189088,
+      6.615766,
+      0
+    ],
+    [
+      43.189013,
+      6.615541,
+      0
+    ],
+    [
+      43.188907,
+      6.615337,
+      0
+    ],
+    [
+      43.188799,
+      6.615129,
+      0
+    ],
+    [
+      43.188706,
+      6.61491,
+      0
+    ],
+    [
+      43.188526,
+      6.614989,
+      0
+    ],
+    [
+      43.188335,
+      6.614991,
+      0
+    ],
+    [
+      43.188154,
+      6.61501,
+      0
+    ],
+    [
+      43.187965,
+      6.615045,
+      0
+    ],
+    [
+      43.187781,
+      6.615078,
+      0
+    ],
+    [
+      43.187599,
+      6.615107,
+      0
+    ],
+    [
+      43.187409,
+      6.615113,
+      0
+    ],
+    [
+      43.187231,
+      6.615169,
+      0
+    ],
+    [
+      43.187048,
+      6.615241,
+      0
+    ],
+    [
+      43.186861,
+      6.61531,
+      0
+    ],
+    [
+      43.186687,
+      6.615376,
+      0
+    ],
+    [
+      43.18651,
+      6.615451,
+      0
+    ],
+    [
+      43.186335,
+      6.61554,
+      0
+    ],
+    [
+      43.186151,
+      6.615566,
+      0
+    ],
+    [
+      43.185969,
+      6.615498,
+      0
+    ],
+    [
+      43.18578,
+      6.615466,
+      0
+    ],
+    [
+      43.185602,
+      6.61552,
+      0
+    ],
+    [
+      43.185424,
+      6.615575,
+      0
+    ],
+    [
+      43.185243,
+      6.615562,
+      0
+    ],
+    [
+      43.185061,
+      6.615588,
+      0
+    ],
+    [
+      43.184878,
+      6.615583,
+      0
+    ],
+    [
+      43.184693,
+      6.615594,
+      0
+    ],
+    [
+      43.184506,
+      6.615608,
+      0
+    ],
+    [
+      43.184322,
+      6.615614,
+      0
+    ],
+    [
+      43.18414,
+      6.615632,
+      0
+    ],
+    [
+      43.183956,
+      6.615607,
+      0
+    ],
+    [
+      43.183797,
+      6.615491,
+      0
+    ],
+    [
+      43.183611,
+      6.615474,
+      0
+    ],
+    [
+      43.183425,
+      6.615446,
+      0
+    ],
+    [
+      43.183361,
+      6.615215,
+      0
+    ],
+    [
+      43.183454,
+      6.615,
+      0
+    ],
+    [
+      43.183336,
+      6.614801,
+      0
+    ],
+    [
+      43.183217,
+      6.614609,
+      0
+    ],
+    [
+      43.18304,
+      6.614536,
+      0
+    ],
+    [
+      43.182873,
+      6.61442,
+      0
+    ],
+    [
+      43.182725,
+      6.614262,
+      0
+    ],
+    [
+      43.182668,
+      6.614015,
+      0
+    ],
+    [
+      43.182649,
+      6.613768,
+      0
+    ],
+    [
+      43.18252,
+      6.613595,
+      0
+    ],
+    [
+      43.182703,
+      6.613611,
+      0
+    ],
+    [
+      43.182863,
+      6.613757,
+      0
+    ],
+    [
+      43.183015,
+      6.613615,
+      0
+    ],
+    [
+      43.183005,
+      6.613355,
+      0
+    ],
+    [
+      43.182899,
+      6.613152,
+      0
+    ],
+    [
+      43.18276,
+      6.61299,
+      0
+    ],
+    [
+      43.182611,
+      6.612838,
+      0
+    ],
+    [
+      43.182496,
+      6.612647,
+      0
+    ],
+    [
+      43.182674,
+      6.612599,
+      0
+    ],
+    [
+      43.182845,
+      6.612517,
+      0
+    ],
+    [
+      43.182942,
+      6.612306,
+      0
+    ],
+    [
+      43.183064,
+      6.612104,
+      0
+    ],
+    [
+      43.18322,
+      6.611975,
+      0
+    ],
+    [
+      43.183378,
+      6.611849,
+      0
+    ],
+    [
+      43.183473,
+      6.611637,
+      0
+    ],
+    [
+      43.183546,
+      6.611396,
+      0
+    ],
+    [
+      43.183612,
+      6.611152,
+      0
+    ],
+    [
+      43.183679,
+      6.610909,
+      0
+    ],
+    [
+      43.183728,
+      6.610663,
+      0
+    ],
+    [
+      43.18377,
+      6.610417,
+      0
+    ],
+    [
+      43.1838,
+      6.610169,
+      0
+    ],
+    [
+      43.18379,
+      6.609909,
+      0
+    ],
+    [
+      43.183634,
+      6.609762,
+      0
+    ],
+    [
+      43.18348,
+      6.609621,
+      0
+    ],
+    [
+      43.183384,
+      6.609402,
+      0
+    ],
+    [
+      43.183373,
+      6.609153,
+      0
+    ],
+    [
+      43.183424,
+      6.60891,
+      0
+    ],
+    [
+      43.183489,
+      6.608679,
+      0
+    ],
+    [
+      43.183474,
+      6.608422,
+      0
+    ],
+    [
+      43.183467,
+      6.608172,
+      0
+    ],
+    [
+      43.183481,
+      6.607916,
+      0
+    ],
+    [
+      43.183457,
+      6.607664,
+      0
+    ],
+    [
+      43.183448,
+      6.607417,
+      0
+    ],
+    [
+      43.183453,
+      6.607168,
+      0
+    ],
+    [
+      43.18346,
+      6.606917,
+      0
+    ],
+    [
+      43.183508,
+      6.606671,
+      0
+    ],
+    [
+      43.183602,
+      6.606457,
+      0
+    ],
+    [
+      43.183758,
+      6.60631,
+      0
+    ],
+    [
+      43.183922,
+      6.606184,
+      0
+    ],
+    [
+      43.184092,
+      6.60609,
+      0
+    ],
+    [
+      43.184251,
+      6.605971,
+      0
+    ],
+    [
+      43.184143,
+      6.605757,
+      0
+    ],
+    [
+      43.183996,
+      6.605603,
+      0
+    ],
+    [
+      43.183845,
+      6.605451,
+      0
+    ],
+    [
+      43.183675,
+      6.605354,
+      0
+    ],
+    [
+      43.183493,
+      6.605289,
+      0
+    ],
+    [
+      43.183315,
+      6.605217,
+      0
+    ],
+    [
+      43.183145,
+      6.605106,
+      0
+    ],
+    [
+      43.183078,
+      6.604867,
+      0
+    ],
+    [
+      43.183092,
+      6.604615,
+      0
+    ],
+    [
+      43.183196,
+      6.604402,
+      0
+    ],
+    [
+      43.183257,
+      6.604162,
+      0
+    ],
+    [
+      43.183413,
+      6.604035,
+      0
+    ],
+    [
+      43.183591,
+      6.604093,
+      0
+    ],
+    [
+      43.183761,
+      6.604196,
+      0
+    ],
+    [
+      43.183887,
+      6.604377,
+      0
+    ],
+    [
+      43.184036,
+      6.604535,
+      0
+    ],
+    [
+      43.184226,
+      6.604568,
+      0
+    ],
+    [
+      43.184392,
+      6.604457,
+      0
+    ],
+    [
+      43.184493,
+      6.604237,
+      0
+    ],
+    [
+      43.184564,
+      6.604003,
+      0
+    ],
+    [
+      43.184556,
+      6.60375,
+      0
+    ],
+    [
+      43.184467,
+      6.603532,
+      0
+    ],
+    [
+      43.184338,
+      6.60335,
+      0
+    ],
+    [
+      43.184198,
+      6.603176,
+      0
+    ],
+    [
+      43.184101,
+      6.602952,
+      0
+    ],
+    [
+      43.18407,
+      6.602699,
+      0
+    ],
+    [
+      43.184003,
+      6.602456,
+      0
+    ],
+    [
+      43.183928,
+      6.602231,
+      0
+    ],
+    [
+      43.183829,
+      6.602005,
+      0
+    ],
+    [
+      43.18369,
+      6.601836,
+      0
+    ],
+    [
+      43.183547,
+      6.601665,
+      0
+    ],
+    [
+      43.183516,
+      6.601417,
+      0
+    ],
+    [
+      43.183584,
+      6.601178,
+      0
+    ],
+    [
+      43.183622,
+      6.600926,
+      0
+    ],
+    [
+      43.183725,
+      6.600711,
+      0
+    ],
+    [
+      43.183805,
+      6.600483,
+      0
+    ],
+    [
+      43.183866,
+      6.600236,
+      0
+    ],
+    [
+      43.183942,
+      6.599999,
+      0
+    ],
+    [
+      43.184002,
+      6.599763,
+      0
+    ],
+    [
+      43.184065,
+      6.599516,
+      0
+    ],
+    [
+      43.184138,
+      6.599285,
+      0
+    ],
+    [
+      43.184192,
+      6.599036,
+      0
+    ],
+    [
+      43.184216,
+      6.598784,
+      0
+    ],
+    [
+      43.184229,
+      6.598534,
+      0
+    ],
+    [
+      43.184385,
+      6.598658,
+      0
+    ],
+    [
+      43.184568,
+      6.598533,
+      0
+    ],
+    [
+      43.184384,
+      6.598537,
+      0
+    ],
+    [
+      43.184564,
+      6.598493,
+      0
+    ],
+    [
+      43.184745,
+      6.598517,
+      0
+    ],
+    [
+      43.184926,
+      6.598474,
+      0
+    ],
+    [
+      43.1851,
+      6.598552,
+      0
+    ],
+    [
+      43.185261,
+      6.598691,
+      0
+    ],
+    [
+      43.185423,
+      6.598816,
+      0
+    ],
+    [
+      43.185541,
+      6.599019,
+      0
+    ],
+    [
+      43.185724,
+      6.599053,
+      0
+    ],
+    [
+      43.185843,
+      6.598868,
+      0
+    ],
+    [
+      43.185752,
+      6.599085,
+      0
+    ]
+  ]
+}
