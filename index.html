@@ -10,6 +10,7 @@
 <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +34,14 @@
 <main>
   <section class="intro">
     <p>Été comme hiver, le club explore les collines du Var : calanques et crêtes littorales, garrigue odorante, gorges et villages perchés. Chaque randonnée ci-dessous propose une visite guidée en ligne et les traces à télécharger.</p>
+  </section>
+
+  <section class="carte-section" aria-label="Carte de nos randonnées">
+    <h2 class="carte-section__titre">🥾 Toutes nos randonnées sur la carte</h2>
+    <div class="carte-ensemble" id="carte-ensemble" tabindex="0">
+      <p class="carte-ensemble__etat" id="carte-etat">Chargement de la carte&hellip;</p>
+    </div>
+    <p class="carte-section__astuce">Cliquez sur un marcheur pour ouvrir la fiche de sa randonnée.</p>
   </section>
 
   <section class="liste" id="liste-randonnees" aria-label="Liste des randonnées">
@@ -61,6 +70,7 @@
   </article>
 </template>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="app.js"></script>
 <script>
   if ('serviceWorker' in navigator) {

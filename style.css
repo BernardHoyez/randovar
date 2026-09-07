@@ -122,6 +122,86 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--sun); outline-o
   font-size: 1.08rem;
 }
 
+/* ---------- Carte de synthèse ---------- */
+
+.carte-section {
+  max-width: 1080px;
+  margin: 0 auto 1rem;
+  padding: 0 1.5rem;
+}
+
+.carte-section__titre {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--pine-deep);
+  margin: 0 0 0.8rem;
+  text-align: center;
+}
+
+.carte-ensemble {
+  position: relative;
+  height: 380px;
+  border-radius: var(--rayon);
+  overflow: hidden;
+  box-shadow: var(--ombre);
+  border: 1px solid rgba(46,43,34,0.08);
+  background: var(--stone-dim);
+}
+
+.carte-ensemble__etat {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.carte-section__astuce {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin: 0.7rem 0 0;
+}
+
+.marqueur-marcheur {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--pine);
+  border: 2px solid var(--paper);
+  box-shadow: 0 2px 8px rgba(46, 43, 34, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--paper);
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.marqueur-marcheur:hover {
+  transform: scale(1.12);
+  background: var(--ochre-deep);
+}
+
+.marqueur-marcheur svg {
+  width: 20px;
+  height: 20px;
+}
+
+.leaflet-tooltip {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--ink);
+}
+
 /* ---------- Liste des randonnées ---------- */
 
 .liste {
@@ -142,6 +222,24 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--sun); outline-o
   font-family: var(--font-mono);
   font-size: 0.9rem;
   padding: 2rem 0;
+}
+
+.liste__note {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--ink-soft);
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  margin: -0.6rem 0 0.4rem;
+}
+
+.carte--surlignee {
+  animation: surlignage 1.8s ease;
+}
+
+@keyframes surlignage {
+  0%, 100% { box-shadow: var(--ombre); }
+  15%, 60% { box-shadow: 0 0 0 4px var(--sun), var(--ombre); }
 }
 
 .carte {
@@ -241,10 +339,12 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--sun); outline-o
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .carte { transition: none; }
+  .carte--surlignee { animation: none; box-shadow: 0 0 0 4px var(--sun), var(--ombre); }
 }
 
 @media (max-width: 560px) {
   .hero { min-height: 60vh; }
   .hero__content { padding-bottom: 3.2rem; }
   .liste { grid-template-columns: 1fr; }
+  .carte-ensemble { height: 280px; }
 }

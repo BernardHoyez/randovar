@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Générateur de fiche — Randonner VAR</title>
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --stone: #EAE4D6; --pine: #47563A; --pine-deep: #333F29;
+    --ochre: #C17A3D; --ochre-deep: #A6602A; --ink: #2E2B22;
+    --ink-soft: #55503F; --paper: #F5F1E7; --sun: #D9A441;
+    --rayon: 10px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--stone); color: var(--ink);
+    font-family: system-ui, sans-serif; line-height: 1.5;
+    padding: 1.5rem;
+  }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 1.4rem; color: var(--pine-deep); margin-bottom: 0.2rem; }
+  .sous-titre { color: var(--ink-soft); font-size: 0.92rem; margin-top: 0; margin-bottom: 1.6rem; }
+  section {
+    background: var(--paper); border-radius: var(--rayon);
+    padding: 1.2rem 1.3rem; margin-bottom: 1.2rem;
+    box-shadow: 0 6px 18px rgba(46,43,34,0.1);
+  }
+  h2 { font-size: 1rem; color: var(--pine-deep); margin: 0 0 0.8rem; }
+  .zone-depot {
+    border: 2px dashed var(--ochre); border-radius: var(--rayon);
+    padding: 2.2rem 1rem; text-align: center; color: var(--ink-soft);
+    cursor: pointer; transition: background 0.15s ease;
+  }
+  .zone-depot.survol { background: rgba(193,122,61,0.12); }
+  .zone-depot input { display: none; }
+  label.champ { display: block; font-size: 0.85rem; font-weight: 600; color: var(--pine-deep); margin: 0.9rem 0 0.3rem; }
+  label.champ:first-child { margin-top: 0; }
+  input[type="text"] {
+    width: 100%; padding: 0.55rem 0.7rem; border-radius: 6px;
+    border: 1.5px solid rgba(46,43,34,0.2); font-size: 0.95rem; font-family: inherit;
+  }
+  .aide { font-size: 0.78rem; color: var(--ink-soft); margin: 0.25rem 0 0; }
+  .crop-frame {
+    width: 100%; max-width: 480px; aspect-ratio: 3 / 2; overflow: hidden;
+    position: relative; border-radius: 8px; background: #1c1c1c;
+    margin: 0 auto; cursor: grab; touch-action: none;
+  }
+  .crop-frame:active { cursor: grabbing; }
+  #crop-img { position: absolute; top: 0; left: 0; transform-origin: 0 0; user-select: none; pointer-events: none; }
+  .crop-controles { display: flex; align-items: center; gap: 0.6rem; margin-top: 0.7rem; max-width: 480px; }
+  .crop-controles input[type="range"] { flex: 1; }
+  .rangee-boutons { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.7rem; }
+  button, .bouton-fichier {
+    font-family: inherit; font-weight: 600; font-size: 0.85rem;
+    padding: 0.5rem 0.9rem; border-radius: 999px; border: 1.5px solid var(--ochre);
+    background: transparent; color: var(--ochre-deep); cursor: pointer;
+  }
+  button:hover, .bouton-fichier:hover { background: var(--ochre); color: var(--paper); }
+  button.principal { background: var(--pine); color: var(--paper); border-color: var(--pine); font-size: 0.95rem; padding: 0.7rem 1.3rem; }
+  button.principal:hover { background: var(--pine-deep); }
+  button:disabled { opacity: 0.45; cursor: not-allowed; }
+  .galerie { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.8rem; }
+  .galerie img {
+    width: 64px; height: 64px; object-fit: cover; border-radius: 6px;
+    cursor: pointer; border: 2px solid transparent;
+  }
+  .galerie img:hover { border-color: var(--ochre); }
+  .etat { font-size: 0.9rem; color: var(--ink-soft); }
+  .etat.erreur { color: #a6402a; font-weight: 600; }
+  .etat.succes { color: var(--pine-deep); font-weight: 600; }
+  #zone-fiche, #zone-generer { display: none; }
+  .resume-mesures { display: flex; gap: 1.2rem; font-family: ui-monospace, monospace; font-size: 0.85rem; color: var(--ink-soft); margin-top: 0.4rem; }
+  ol.instructions { font-size: 0.9rem; color: var(--ink-soft); padding-left: 1.2rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🧭 Générateur de fiche — Randonner VAR</h1>
+  <p class="sous-titre">
+    À partir du paquet exporté par l'onglet <strong>Déploiement</strong> de geotour :
+    calcule automatiquement la distance et le dénivelé, prépare la vignette,
+    et produit un dossier prêt à déposer dans <code>randonnees/</code> —
+    sans écrire <code>rando.json</code> à la main ni recomposer d'image.
+  </p>
+
+  <section id="zone-depot-section">
+    <h2>1. Paquet geotour</h2>
+    <div class="zone-depot" id="zone-depot">
+      <p>📦 Déposez ici le fichier .zip exporté par geotour<br>(ou cliquez pour le choisir)</p>
+      <input type="file" id="fichier-zip" accept=".zip">
+    </div>
+    <p class="etat" id="etat-zip"></p>
+  </section>
+
+  <section id="zone-fiche">
+    <h2>2. Informations de la fiche</h2>
+    <p class="etat" id="nom-dossier"></p>
+
+    <label class="champ" for="champ-titre">Titre affiché</label>
+    <input type="text" id="champ-titre" placeholder="Ex. : Lac de Sainte-Croix : hauteurs et rives de Bauduen">
+
+    <label class="champ" for="champ-duree">Durée (optionnel)</label>
+    <input type="text" id="champ-duree" placeholder="Ex. : 4 h">
+
+    <label class="champ" for="champ-distance">Distance</label>
+    <input type="text" id="champ-distance">
+    <p class="aide">Calculée automatiquement à partir de la trace — modifiable si besoin.</p>
+
+    <label class="champ" for="champ-denivele">Dénivelé D+</label>
+    <input type="text" id="champ-denivele">
+    <p class="aide">Calculé automatiquement (approximatif) — modifiable si besoin. Laissez vide pour ne pas l'afficher.</p>
+
+    <label class="champ">Vignette (format 3:2)</label>
+    <div class="crop-frame" id="crop-frame">
+      <img id="crop-img" alt="">
+    </div>
+    <div class="crop-controles">
+      <span style="font-size:0.8rem;color:var(--ink-soft)">🔍</span>
+      <input type="range" id="crop-zoom" min="1" max="3" step="0.001" value="1">
+    </div>
+    <div class="rangee-boutons">
+      <button type="button" id="btn-recentrer">Recentrer</button>
+      <label class="bouton-fichier">Utiliser une autre image
+        <input type="file" id="fichier-image-perso" accept="image/*" style="display:none">
+      </label>
+    </div>
+    <div class="galerie" id="galerie-photos"></div>
+  </section>
+
+  <section id="zone-generer">
+    <h2>3. Générer</h2>
+    <button type="button" class="principal" id="btn-generer">📦 Générer le dossier complet</button>
+    <p class="etat" id="etat-generation"></p>
+  </section>
+
+  <section>
+    <h2>Ensuite</h2>
+    <ol class="instructions">
+      <li>Extrayez le .zip téléchargé : vous obtenez un dossier complet et prêt.</li>
+      <li>Déposez ce dossier dans <code>randonnees/</code> sur le dépôt <code>randovar</code>.</li>
+      <li>Ajoutez son nom dans <code>randonnees.json</code> (une ligne).</li>
+    </ol>
+  </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+(function () {
+  const zoneDepot = document.getElementById('zone-depot');
+  const inputZip = document.getElementById('fichier-zip');
+  const etatZip = document.getElementById('etat-zip');
+  const zoneFiche = document.getElementById('zone-fiche');
+  const zoneGenerer = document.getElementById('zone-generer');
+  const nomDossierEl = document.getElementById('nom-dossier');
+
+  const champTitre = document.getElementById('champ-titre');
+  const champDuree = document.getElementById('champ-duree');
+  const champDistance = document.getElementById('champ-distance');
+  const champDenivele = document.getElementById('champ-denivele');
+
+  const cropFrame = document.getElementById('crop-frame');
+  const cropImg = document.getElementById('crop-img');
+  const cropZoom = document.getElementById('crop-zoom');
+  const galerie = document.getElementById('galerie-photos');
+  const inputImagePerso = document.getElementById('fichier-image-perso');
+
+  const btnGenerer = document.getElementById('btn-generer');
+  const etatGeneration = document.getElementById('etat-generation');
+
+  let inputZipObj = null;   // JSZip de l'archive déposée
+  let folderName = '';
+  let deployData = null;    // contenu du <folder>.json
+  let img = new Image();
+  let crop = { naturalW: 0, naturalH: 0, scale: 1, minScale: 1, offsetX: 0, offsetY: 0, dragging: false, startX: 0, startY: 0 };
+
+  // ---------- Étape 1 : lecture du zip ----------
+
+  zoneDepot.addEventListener('click', () => inputZip.click());
+  zoneDepot.addEventListener('dragover', (e) => { e.preventDefault(); zoneDepot.classList.add('survol'); });
+  zoneDepot.addEventListener('dragleave', () => zoneDepot.classList.remove('survol'));
+  zoneDepot.addEventListener('drop', (e) => {
+    e.preventDefault();
+    zoneDepot.classList.remove('survol');
+    if (e.dataTransfer.files.length) traiterZip(e.dataTransfer.files[0]);
+  });
+  inputZip.addEventListener('change', () => {
+    if (inputZip.files.length) traiterZip(inputZip.files[0]);
+  });
+
+  async function traiterZip(fichier) {
+    etatZip.textContent = 'Lecture du paquet…';
+    etatZip.className = 'etat';
+    try {
+      inputZipObj = await JSZip.loadAsync(fichier);
+
+      const cheminJson = Object.keys(inputZipObj.files).find(
+        (p) => /\.json$/i.test(p) && !p.includes('/photos/')
+      );
+      if (!cheminJson) throw new Error("Aucun fichier .json de déploiement trouvé dans l'archive.");
+
+      const texteJson = await inputZipObj.file(cheminJson).async('string');
+      deployData = JSON.parse(texteJson);
+      folderName = deployData.name || cheminJson.split('/')[0];
+
+      etatZip.textContent = '✓ Randonnée détectée : ' + folderName;
+      etatZip.className = 'etat succes';
+      nomDossierEl.textContent = 'Dossier : ' + folderName;
+
+      // Distance et dénivelé calculés depuis la trace
+      const track = Array.isArray(deployData.track) ? deployData.track : [];
+      if (track.length > 1) {
+        const distanceM = calculerDistance(track);
+        const denivele = calculerDenivele(track);
+        champDistance.value = (distanceM / 1000).toFixed(1) + ' km';
+        champDenivele.value = denivele > 0 ? denivele + ' m' : '';
+      }
+
+      champTitre.value = '';
+      champDuree.value = '';
+
+      // Vignette par défaut = thumbnail du paquet
+      if (deployData.thumbnail) {
+        const cheminVignette = folderName + '/' + deployData.thumbnail;
+        const fichierZip = inputZipObj.file(cheminVignette);
+        if (fichierZip) {
+          const blob = await fichierZip.async('blob');
+          chargerImagePourRecadrage(URL.createObjectURL(blob));
+        }
+      }
+
+      await remplirGalerie();
+
+      zoneFiche.style.display = 'block';
+      zoneGenerer.style.display = 'block';
+      champTitre.focus();
+    } catch (err) {
+      console.error(err);
+      etatZip.textContent = '✗ ' + err.message;
+      etatZip.className = 'etat erreur';
+    }
+  }
+
+  function calculerDistance(track) {
+    const R = 6371000, toRad = Math.PI / 180;
+    let d = 0;
+    for (let i = 1; i < track.length; i++) {
+      const [lat1, lon1] = track[i - 1];
+      const [lat2, lon2] = track[i];
+      const dLat = (lat2 - lat1) * toRad, dLon = (lon2 - lon1) * toRad;
+      const a = Math.sin(dLat / 2) ** 2 + Math.cos(lat1 * toRad) * Math.cos(lat2 * toRad) * Math.sin(dLon / 2) ** 2;
+      d += 2 * R * Math.asin(Math.sqrt(a));
+    }
+    return d;
+  }
+
+  function calculerDenivele(track, seuil) {
+    seuil = seuil || 3;
+    let gain = 0;
+    let ref = track[0][2];
+    for (let i = 1; i < track.length; i++) {
+      const alt = track[i][2];
+      if (typeof alt !== 'number') continue;
+      const diff = alt - ref;
+      if (diff >= seuil) { gain += diff; ref = alt; }
+      else if (diff <= -seuil) { ref = alt; }
+    }
+    return Math.round(gain);
+  }
+
+  async function remplirGalerie() {
+    galerie.innerHTML = '';
+    const cheminsPhotos = Object.keys(inputZipObj.files)
+      .filter((p) => p.startsWith(folderName + '/photos/') && !inputZipObj.files[p].dir);
+    for (const chemin of cheminsPhotos) {
+      const blob = await inputZipObj.file(chemin).async('blob');
+      const url = URL.createObjectURL(blob);
+      const im = document.createElement('img');
+      im.src = url;
+      im.title = 'Utiliser cette photo comme vignette';
+      im.addEventListener('click', () => chargerImagePourRecadrage(url));
+      galerie.appendChild(im);
+    }
+  }
+
+  inputImagePerso.addEventListener('change', () => {
+    if (inputImagePerso.files.length) {
+      chargerImagePourRecadrage(URL.createObjectURL(inputImagePerso.files[0]));
+    }
+  });
+
+  // ---------- Recadrage (glisser + zoom, Pointer Events) ----------
+
+  function chargerImagePourRecadrage(url) {
+    img = new Image();
+    img.onload = () => {
+      crop.naturalW = img.naturalWidth;
+      crop.naturalH = img.naturalHeight;
+      const frameW = cropFrame.clientWidth, frameH = cropFrame.clientHeight;
+      crop.minScale = Math.max(frameW / crop.naturalW, frameH / crop.naturalH);
+      crop.scale = crop.minScale;
+      cropZoom.min = crop.minScale;
+      cropZoom.max = crop.minScale * 3;
+      cropZoom.step = (crop.minScale * 3 - crop.minScale) / 200 || 0.001;
+      cropZoom.value = crop.minScale;
+      crop.offsetX = (frameW - crop.naturalW * crop.scale) / 2;
+      crop.offsetY = (frameH - crop.naturalH * crop.scale) / 2;
+      cropImg.src = url;
+      appliquerTransform();
+    };
+    img.src = url;
+  }
+
+  function appliquerTransform() {
+    const frameW = cropFrame.clientWidth, frameH = cropFrame.clientHeight;
+    const w = crop.naturalW * crop.scale, h = crop.naturalH * crop.scale;
+    crop.offsetX = Math.min(0, Math.max(frameW - w, crop.offsetX));
+    crop.offsetY = Math.min(0, Math.max(frameH - h, crop.offsetY));
+    cropImg.style.width = w + 'px';
+    cropImg.style.height = h + 'px';
+    cropImg.style.transform = 'translate(' + crop.offsetX + 'px,' + crop.offsetY + 'px)';
+  }
+
+  cropZoom.addEventListener('input', () => {
+    const nouvelleEchelle = Number(cropZoom.value);
+    const frameW = cropFrame.clientWidth, frameH = cropFrame.clientHeight;
+    const cx = frameW / 2, cy = frameH / 2;
+    const relX = (cx - crop.offsetX) / crop.scale;
+    const relY = (cy - crop.offsetY) / crop.scale;
+    crop.scale = nouvelleEchelle;
+    crop.offsetX = cx - relX * crop.scale;
+    crop.offsetY = cy - relY * crop.scale;
+    appliquerTransform();
+  });
+
+  cropFrame.addEventListener('pointerdown', (e) => {
+    if (!crop.naturalW) return;
+    crop.dragging = true;
+    crop.startX = e.clientX - crop.offsetX;
+    crop.startY = e.clientY - crop.offsetY;
+    cropFrame.setPointerCapture(e.pointerId);
+  });
+  cropFrame.addEventListener('pointermove', (e) => {
+    if (!crop.dragging) return;
+    crop.offsetX = e.clientX - crop.startX;
+    crop.offsetY = e.clientY - crop.startY;
+    appliquerTransform();
+  });
+  cropFrame.addEventListener('pointerup', () => { crop.dragging = false; });
+  cropFrame.addEventListener('pointercancel', () => { crop.dragging = false; });
+
+  document.getElementById('btn-recentrer').addEventListener('click', () => {
+    if (!crop.naturalW) return;
+    crop.scale = crop.minScale;
+    cropZoom.value = crop.minScale;
+    const frameW = cropFrame.clientWidth, frameH = cropFrame.clientHeight;
+    crop.offsetX = (frameW - crop.naturalW * crop.scale) / 2;
+    crop.offsetY = (frameH - crop.naturalH * crop.scale) / 2;
+    appliquerTransform();
+  });
+
+  function genererVignetteBlob() {
+    return new Promise((resolve) => {
+      const OUT_W = 900, OUT_H = 600;
+      const canvas = document.createElement('canvas');
+      canvas.width = OUT_W;
+      canvas.height = OUT_H;
+      const ctx = canvas.getContext('2d');
+      const frameW = cropFrame.clientWidth, frameH = cropFrame.clientHeight;
+      const sx = (0 - crop.offsetX) / crop.scale;
+      const sy = (0 - crop.offsetY) / crop.scale;
+      const sw = frameW / crop.scale;
+      const sh = frameH / crop.scale;
+      ctx.drawImage(img, sx, sy, sw, sh, 0, 0, OUT_W, OUT_H);
+      canvas.toBlob((blob) => resolve(blob), 'image/jpeg', 0.85);
+    });
+  }
+
+  // ---------- Étape 3 : génération du dossier final ----------
+
+  btnGenerer.addEventListener('click', async () => {
+    if (!champTitre.value.trim()) {
+      etatGeneration.textContent = '✗ Merci de saisir un titre.';
+      etatGeneration.className = 'etat erreur';
+      champTitre.focus();
+      return;
+    }
+    if (!crop.naturalW) {
+      etatGeneration.textContent = '✗ Aucune vignette sélectionnée.';
+      etatGeneration.className = 'etat erreur';
+      return;
+    }
+
+    btnGenerer.disabled = true;
+    etatGeneration.textContent = 'Génération en cours…';
+    etatGeneration.className = 'etat';
+
+    try {
+      const rando = {
+        titre: champTitre.value.trim(),
+        vignette: 'vignette.jpg',
+        visite: folderName + '.html',
+        kml: folderName + '.kml',
+        gpx: folderName + '.gpx'
+      };
+      if (champDistance.value.trim()) rando.distance = champDistance.value.trim();
+      if (champDuree.value.trim()) rando.duree = champDuree.value.trim();
+      if (champDenivele.value.trim()) rando.denivele = champDenivele.value.trim();
+
+      const vignetteBlob = await genererVignetteBlob();
+
+      const zipSortie = new JSZip();
+      // Copie de tous les fichiers du paquet geotour tels quels
+      const chemins = Object.keys(inputZipObj.files).filter((p) => !inputZipObj.files[p].dir);
+      for (const chemin of chemins) {
+        const blob = await inputZipObj.file(chemin).async('blob');
+        zipSortie.file(chemin, blob);
+      }
+      zipSortie.file(folderName + '/rando.json', JSON.stringify(rando, null, 2));
+      zipSortie.file(folderName + '/vignette.jpg', vignetteBlob);
+
+      const blobFinal = await zipSortie.generateAsync({ type: 'blob', compression: 'DEFLATE' });
+      const url = URL.createObjectURL(blobFinal);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = folderName + '.zip';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+
+      etatGeneration.textContent = '✓ "' + folderName + '.zip" téléchargé — prêt à déposer dans randonnees/.';
+      etatGeneration.className = 'etat succes';
+    } catch (err) {
+      console.error(err);
+      etatGeneration.textContent = '✗ ' + err.message;
+      etatGeneration.className = 'etat erreur';
+    } finally {
+      btnGenerer.disabled = false;
+    }
+  });
+})();
+</script>
+</body>
+</html>

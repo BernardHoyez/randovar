@@ -1,4 +1,4 @@
-const CACHE_NAME = 'randovar-cache-v2';
+const CACHE_NAME = 'randovar-cache-v3';
 
 const PRECACHE_ASSETS = [
   './',
