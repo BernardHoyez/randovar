@@ -1,12 +1,13 @@
 [
-   "randonnees/riforan_entrecasteaux",
+  "randonnees/riforan_entrecasteaux",
   "randonnees/aiguines_aiguines",
-   "randonnees/mont_aurelien_pourcieux",  
+  "randonnees/mont_aurelien_pourcieux",
   "randonnees/bessillon_ponteves",
   "randonnees/rougiers_rougiers",
   "randonnees/fox3_fox-amphoux",
   "randonnees/2026-09-06_bauduen_bauduen",
   "randonnees/gigaro_lardier_taillat_la_croix-valmer",
   "randonnees/2026-09-09_brue_auriac_bras",
-   "randonnees/2026-09-13__les__encaneaux_auriol"
+  "randonnees/2026-09-13__les__encaneaux_auriol",
+  "randonnees/2026-09-16_140238_cabasse_cabasse"
 ]
